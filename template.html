@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+      .flex {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .item {
+        margin-bottom: 24px;
+      }
+    </style>
+    <title>CircleCI Stats</title>
+  </head>
+
+  <body>
+    <div class="column">
+      {% for item in data %}
+        <div class="item">
+          <h1>{{item.name}}</h1>
+          <img src="{{item.file}}" alt="{{item.name}}"/>
+          <div>max: {{item.max}}</div>
+          <div>mean: {{item.mean}}</div>
+          <div>min: {{item.min}}</div>
+        </div>
+        <hr/>
+      {% endfor %}
+    </div>
+  </body>
+</html>

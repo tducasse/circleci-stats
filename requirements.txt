@@ -1,0 +1,6 @@
+requests>=2.24
+python-dotenv>=0.14
+matplotlib>=3.3
+python-dateutil>=2.8
+slugify>=4.0
+jinja2>=2.11
