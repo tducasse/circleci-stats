@@ -1,6 +1,5 @@
 # CircleCI Stats
 
-[![weekend-project](https://the-weekend-project.vercel.app/api/svg)](https://tducasse.com/posts/the-weekend-project)
 
 CircleCI doesn't give _super useful_ stats about build times over time.
 
